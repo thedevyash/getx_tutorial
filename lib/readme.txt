@@ -4,7 +4,7 @@ GetX allows you tu use many prebuilt functions built by GetX creators
 
 
 GetX snackbar uses global context 
-
+GetX navigator and normal navigator both have very little difference
 
 
 

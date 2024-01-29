@@ -63,6 +63,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           onTap: () {
                             Get.changeTheme(ThemeData.dark());
                           },
+                        ),
+                        ListTile(
+                          textColor: Colors.black,
+                          title: Text("Snckbar wali tile"),
+                          onTap: () {
+                            Get.snackbar("snackbar", "message");
+                          },
                         )
                       ]),
                     ));

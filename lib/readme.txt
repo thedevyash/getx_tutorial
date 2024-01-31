@@ -6,9 +6,11 @@ GetX allows you tu use many prebuilt functions built by GetX creators
 GetX snackbar uses global context 
 GetX navigator and normal navigator both have very little difference
 
+Useful-
+Get.height()
+Get.width()
 
-
-GetX stte mnagement
+GetX state mnagement
 state management is of two types
-Reactive state mnagement-specific widget ke upr
+Reactive state management-specific widget ke upr
 Simple " " - top pr hi

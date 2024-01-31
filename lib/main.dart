@@ -32,6 +32,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_tutorial/Localisation%20and%20Language%20Support/HomeScreen.dart';
 import 'package:getx_tutorial/Localisation%20and%20Language%20Support/languages.dart';
+import 'package:getx_tutorial/TestScreen.dart';
 
 void main() {
   runApp(const MyApp());

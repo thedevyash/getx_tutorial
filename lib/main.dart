@@ -34,6 +34,7 @@ import 'package:getx_tutorial/Localisation%20and%20Language%20Support/HomeScreen
 import 'package:getx_tutorial/Localisation%20and%20Language%20Support/languages.dart';
 import 'package:getx_tutorial/TestScreen.dart';
 import 'package:getx_tutorial/counter%20example/counter.dart';
+import 'package:getx_tutorial/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,13 +45,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         //language select krne ke liye
         //yaha se puri app ki language change wrna get.update locale se button dabakle change krdo language
         //agar ye nahi doge to koi language select nhi hogi
-        locale: Locale('en', 'US'),
+        // locale: Locale('en', 'US'),
         //agar koi bhi lnguage selected nhi hi to ye select hoga
-        fallbackLocale: Locale('en', 'US'),
+        // fallbackLocale: Locale('en', 'US'),
         translations: Languages(),
-        home: Counter());
+        home: SplashScreen());
   }
 }
